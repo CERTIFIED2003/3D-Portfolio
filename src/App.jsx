@@ -25,7 +25,8 @@ export default function App() {
         <Works />
         <Feedbacks />
         <div className="relative z-0">
-
+          <Contact />
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
