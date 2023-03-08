@@ -21,11 +21,6 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
 import reddit from "./reddit.png";
 import twitter from "./twitter.png";
 import clang from "./clang.png";
@@ -33,6 +28,7 @@ import hammer from "./hammer.png";
 
 import shubham from "./shubham.jpg";
 import wkh from "./company/wkh.png";
+import c4f from "./company/c4f.png";
 
 export {
   logo,
@@ -56,14 +52,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   shubham,
   reddit,
   twitter,
   clang,
   hammer,
-  wkh
+  wkh,
+  c4f
 };

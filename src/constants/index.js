@@ -15,16 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     threejs,
     reddit,
     twitter,
     clang,
     hammer,
-    wkh
+    wkh,
+    c4f
 } from "../assets";
 
 export const navLinks = [
@@ -118,62 +115,29 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Co-Founder",
+        title: "Technical Director & Co-Founder",
         company_name: "WeKnewHow",
         icon: wkh,
-        iconBg: "#383E56",
+        iconBg: "#FFFF00",
         date: "Dec 2018 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility."
+            "Responsibility of providing leadership and direction to the company.",
+            "Strategic thinking and using my experience and knowledge to make informed decisions that benefit the company in the long run.",
+            "Clear vision for the company's future and work towards achieving that vision through strategic planning and execution."
         ],
     },
     {
-        title: "Technical Director",
+        title: "CEO & Founder",
         company_name: "Casuals4Fun",
-        iconBg: "#E6DEDD",
+        icon: c4f,
+        iconBg: "#87CEEB",
         date: "Nov 2021 - Present",
         points: [
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    // {
-    //     title: "Web Developer",
-    //     company_name: "Shopify",
-    //     icon: shopify,
-    //     iconBg: "#383E56",
-    //     date: "Jan 2022 - Jan 2023",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Creative vision for the types of games we want to create bringing fresh ideas to the table.",
+            "I do believe in pushing the boundaries of what's possible in game development.",
+            "Working to build strong relationships with industry influencers and find creative ways to promote our games.",
+            "Above all, I am passionate about game development."
+
         ],
     },
 ];
@@ -181,7 +145,7 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+            "I thought it was impossible to make a website as beautiful as our product, but Shubham proved me wrong.",
         name: "Sara Lee",
         designation: "CFO",
         company: "Acme Co",
@@ -189,7 +153,7 @@ const testimonials = [
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
+            "I've never met a web developer who truly cares about their clients' success like Shubham does.",
         name: "Chris Brown",
         designation: "COO",
         company: "DEF Corp",
@@ -197,7 +161,7 @@ const testimonials = [
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+            "After Shubham optimized our website, our traffic increased by 50%. We can't thank them enough!",
         name: "Lisa Wang",
         designation: "CTO",
         company: "456 Enterprises",
