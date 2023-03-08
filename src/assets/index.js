@@ -32,6 +32,7 @@ import clang from "./clang.png";
 import hammer from "./hammer.png";
 
 import shubham from "./shubham.jpg";
+import wkh from "./company/wkh.png";
 
 export {
   logo,
@@ -63,5 +64,6 @@ export {
   reddit,
   twitter,
   clang,
-  hammer
+  hammer,
+  wkh
 };
