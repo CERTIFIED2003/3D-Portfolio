@@ -26,9 +26,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import reddit from "./reddit.png";
+import twitter from "./twitter.png";
+import clang from "./clang.png";
+import hammer from "./hammer.png";
 
 import shubham from "./shubham.jpg";
 
@@ -58,8 +59,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
-  shubham
+  shubham,
+  reddit,
+  twitter,
+  clang,
+  hammer
 };

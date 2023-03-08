@@ -19,10 +19,11 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    reddit,
+    twitter,
+    clang,
+    hammer
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +43,20 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Frontend Developer",
         icon: web,
     },
     {
-        title: "Indie Game Developer",
-        icon: mobile,
+        title: "Backend Developer",
+        icon: creator,
     },
     {
-        title: "Backend Developer",
+        title: "Indie Game Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+        title: "App Developer",
+        icon: mobile,
     },
 ];
 
@@ -198,12 +199,58 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Reddit Clone",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Redesigned Reddit Clone with support of many social media functionalities. Built with NextJS framework with custom designed typescript interfaces. CHAKRA UI for beautiful user interface. With integrated support of Firebase v9, all operations are super fast. Providers like Google, Microsoft & GitHub used for authentication. And much more...!",
         tags: [
             {
-                name: "react",
+                name: "nextjs",
+                color: "black-text-gradient",
+            },
+            {
+                name: "firebase v9",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "chakra ui",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "blue-text-gradient",
+            }
+        ],
+        image: reddit,
+        source_code_link: "https://github.com/CERTIFIED2003/Reddit-Clone",
+    },
+    {
+        name: "Twitter Clone",
+        description:
+            "Awesome looking Twitter clone build using NextJS + TailwindCSS. Firebase v9 integrated for post creation and file storage. With the support of NewsAPI making this application super awesome.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "black-text-gradient",
+            },
+            {
+                name: "firebase v9",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "tailwind css",
+                color: "blue-text-gradient",
+            }
+        ],
+        image: twitter,
+        source_code_link: "https://github.com/CERTIFIED2003/Twitter-Clone",
+    },
+    {
+        name: "Clang Social",
+        description:
+            "A Social Media Platform with a very reliable, fast, user friendly UI to interact with. Supports many social media functionality with the likes of Video+Voice Call.",
+        tags: [
+            {
+                name: "reactjs",
                 color: "blue-text-gradient",
             },
             {
@@ -211,54 +258,29 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "yup",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: clang,
+        source_code_link: "https://clangsocial.netlify.app",
     },
     {
-        name: "Job IT",
+        name: "HammerOBots",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "An open world endless Sci-fi mech combat video game available for Android devices on Google Play Store.",
         tags: [
             {
-                name: "react",
+                name: "unreal engine",
+                color: "black-text-gradient",
+            },
+            {
+                name: "playfab",
                 color: "blue-text-gradient",
             },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: hammer,
+        source_code_link: "https://play.google.com/store/apps/details?id=com.Casuals4Fun.HammerOBots",
     },
 ];
 
